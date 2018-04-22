@@ -92,19 +92,5 @@ void Asteroid::Render()
 void Asteroid::getRandomSprite()
 {
 	int spriteNum = 1 + rand() % 3;
-	switch (spriteNum)
-	{
-	case 1:
-		path = "asteroid1.png";
-		break;
-	case 2:
-		path = "asteroid2.png";
-		break;
-	case 3:
-		path = "asteroid3.png";
-		break;
-	default:
-		path = "asteroid1png";
-		break;
-	}
+	path = "asteroid1.png";
 }
